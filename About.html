@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Zone</title>
+      <!-- bootstrap 5.3 css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- boostrap icon  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+     <!-- css link  -->
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       
+<nav class="navbar navbar-expand-lg navbar-dark shopping-navbar">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold" href="#">
+            Shopping <span>Zone.</span>
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <!-- Navigation Links -->
+            <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" role="button"
+                       data-bs-toggle="dropdown">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html#electronics">Electronics</a></li>
+                        <li><a class="dropdown-item" href="index.html#fashion">Fashion</a></li>
+                        <li><a class="dropdown-item" href="index.html#accessories">Accessories</a></li>
+                        <li><a class="dropdown-item" href="index.html#home">Home & Living</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Deals</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Search Bar -->
+            <form class="search-box d-flex mb-3 mb-lg-0" role="search">
+                <input type="search" class="form-control"
+                    placeholder="Search products...">
+
+                <button class="search-btn" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+
+            <!-- Shopping Cart -->
+            <a href="#" class="cart-icon ms-lg-4">
+                <i class="bi bi-cart3"></i>
+                <span class="cart-count">0</span>
+            </a>
+
+        </div>
+    </div>
+</nav>
+<!-- ABOUT HERO -->
+<section class="about-hero">
+    <div class="container">
+        <span class="about-label">WHO WE ARE</span>
+        <h1>About <span>Shopping Zone</span></h1>
+        <p>
+            Discover a world of quality products, amazing deals,
+            and a shopping experience designed around you.
+        </p>
+    </div>
+</section>
+
+<!-- ABOUT CONTENT -->
+<section class="about-section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+
+            <div class="col-12 col-lg-6">
+                <img
+                    src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900"
+                    alt="Shopping store"
+                    class="about-image"
+                >
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="about-content">
+                    <span class="section-tag">ABOUT OUR STORE</span>
+                    <h2>Your Favorite Place to Shop</h2>
+
+                    <p>
+                        Welcome to Shopping Zone, your trusted online
+                        shopping destination. We bring together a wide
+                        range of products to make your everyday shopping
+                        simple, convenient and enjoyable.
+                    </p>
+
+                    <p>
+                        From the latest electronics and fashion to
+                        accessories and home essentials, we aim to provide
+                        quality products at competitive prices.
+                    </p>
+
+                    <p>
+                        Our goal is to make online shopping easier by
+                        offering variety, convenience and a customer-first
+                        experience.
+                    </p>
+
+                    <a href="#contact" class="about-btn">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- MISSION AND VISION -->
+<section class="mission-section">
+    <div class="container">
+        <div class="mission-heading">
+            <h2>What Makes Us Different?</h2>
+            <p>Our values guide everything we do.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-4">
+                <div class="mission-card">
+                    <i class="bi bi-bullseye"></i>
+                    <h3>Our Mission</h3>
+                    <p>
+                        To make shopping convenient and accessible by
+                        bringing quality products to customers in one place.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mission-card">
+                    <i class="bi bi-eye"></i>
+                    <h3>Our Vision</h3>
+                    <p>
+                        To become a preferred online shopping destination
+                        known for variety, convenience and customer care.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mission-card">
+                    <i class="bi bi-heart"></i>
+                    <h3>Our Values</h3>
+                    <p>
+                        We believe in customer satisfaction, transparency,
+                        quality and creating a better shopping experience.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why-section">
+    <div class="container">
+        <div class="why-heading">
+            <h2>Why Choose Shopping Zone?</h2>
+            <p>Everything you need, all in one place.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="why-card">
+                    <i class="bi bi-bag-check"></i>
+                    <h3>Wide Variety</h3>
+                    <p>Explore products across multiple categories.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="why-card">
+                    <i class="bi bi-tags"></i>
+                    <h3>Great Deals</h3>
+                    <p>Find attractive prices and special offers.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="why-card">
+                    <i class="bi bi-shield-check"></i>
+                    <h3>Quality Products</h3>
+                    <p>Shop from a carefully selected product range.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="why-card">
+                    <i class="bi bi-headset"></i>
+                    <h3>Customer Support</h3>
+                    <p>We are here to help with your questions.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section" id="contact">
+    <div class="container">
+
+        <div class="contact-heading">
+            <span class="section-tag">GET IN TOUCH</span>
+            <h2>Let's Talk With Us</h2>
+            <p>
+                Have a question or need assistance?
+                Send us a message and we'll be happy to help.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- CONTACT INFORMATION -->
+            <div class="col-12 col-lg-5">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p class="contact-info-text">
+                        We'd love to hear from you. Get in touch with us
+                        using the details below.
+                    </p>
+
+                    <div class="contact-detail">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <div>
+                            <h4>Our Location</h4>
+                            <p>Karachi, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="bi bi-envelope-fill"></i>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p>support@shoppingzone.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="bi bi-telephone-fill"></i>
+                        <div>
+                            <h4>Phone Number</h4>
+                            <p>+92 300 1234567</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="bi bi-clock-fill"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Monday - Saturday</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="col-12 col-lg-7" id="contact">
+                <div class="contact-form-box">
+
+                    <h3>Send Us a Message</h3>
+
+                    <form id="contactForm">
+
+                        <div class="row g-3">
+
+                            <div class="col-12 col-md-6">
+                                <label for="contactName">Full Name</label>
+                                <input
+                                    type="text"
+                                    id="contactName"
+                                    class="form-control"
+                                    placeholder="Enter your name"
+                                    required
+                                >
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <label for="contactEmail">Email Address</label>
+                                <input
+                                    type="email"
+                                    id="contactEmail"
+                                    class="form-control"
+                                    placeholder="Enter your email"
+                                    required
+                                >
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <label for="contactPhone">Phone Number</label>
+                                <input
+                                    type="tel"
+                                    id="contactPhone"
+                                    class="form-control"
+                                    placeholder="Enter your phone"
+                                >
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <label for="contactSubject">Subject</label>
+                                <input
+                                    type="text"
+                                    id="contactSubject"
+                                    class="form-control"
+                                    placeholder="Enter subject"
+                                    required
+                                >
+                            </div>
+
+                            <div class="col-12">
+                                <label for="contactMessage">Your Message</label>
+                                <textarea
+                                    id="contactMessage"
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="Write your message here..."
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="contact-submit">
+                                    Send Message
+                                    <i class="bi bi-arrow-right"></i>
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+</section>
+
+<!-- footer  -->
+
+<footer class="shopping-footer">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Brand -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="footer-brand">
+                    <h2>Shopping <span>Zone.</span></h2>
+                    <p>
+                        Your one-stop destination for quality products.
+                        Discover the latest fashion, electronics,
+                        accessories and home essentials at great prices.
+                    </p>
+
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-6 col-md-6 col-lg-2">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="index.html#categories">Categories</a></li>
+                        <li><a href="index.html#deals">Deals</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Categories -->
+            <div class="col-6 col-md-6 col-lg-3">
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                       <li><a href="index.html#electronics">Electronics</a></li>
+                        <li><a href="index.html#fashion">Fashion</a></li>
+                        <li><a href="index.html#accessories">Accessories</a></li>
+                        <li><a href="index.html#home">Home & Living</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="footer-links footer-contact">
+                    <h4>Contact Us</h4>
+
+                    <p>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Karachi, Pakistan
+                    </p>
+
+                    <p>
+                        <i class="bi bi-envelope-fill"></i>
+                        support@shoppingzone.com
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone-fill"></i>
+                        +92 300 1234567
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-bottom">
+            <p>© 2026 Shopping Zone. All Rights Reserved.</p>
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<!-- bootstrap js 5.3  -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

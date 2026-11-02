@@ -1,0 +1,2564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Zone</title>
+    <!-- bootstrap 5.3 css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- boostrap icon  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+     <!-- css link  -->
+      <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    
+<nav class="navbar navbar-expand-lg navbar-dark shopping-navbar">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold" href="#">
+            Shopping <span>Zone.</span>
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <!-- Navigation Links -->
+            <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item dropdown" id="categories">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" role="button"
+                       data-bs-toggle="dropdown">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#electronic">Electronics</a></li>
+                        <li><a class="dropdown-item" href="#fashion">Fashion</a></li>
+                        <li><a class="dropdown-item" href="#accessories">Accessories</a></li>
+                        <li><a class="dropdown-item" href="#home">Home & Living</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#deal">Deals</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html#contact">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Search Bar -->
+            <form class="search-box d-flex mb-3 mb-lg-0" role="search">
+                <input type="search" class="form-control"
+                    placeholder="Search products...">
+
+                <button class="search-btn" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+
+            <!-- Shopping Cart -->
+            <a href="#" class="cart-icon ms-lg-4">
+                <i class="bi bi-cart3"></i>
+                <span class="cart-count">0</span>
+            </a>
+
+        </div>
+    </div>
+</nav>
+
+<!-- hero section  -->
+ 
+<section class="hero">
+    <div class="container">
+
+        <div class="hero-content">
+
+            <h1>
+                Discover Your
+                <span>Favorite Products</span>
+            </h1>
+
+            <p>
+                Explore the latest trends, discover amazing products
+                and enjoy the best shopping experience.
+                Everything you need, all in one place.
+            </p>
+
+            <a href="#electronic" class="hero-btn">
+                Shop Now <i class="bi bi-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+<!-- electronics  -->
+<section class="electronics-section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="electronics-heading" id="electronic">
+            <h2>Electronics</h2>
+            <p>Explore Our Latest Electronics Collection</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- 1 Smartphone -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500" alt="Smartphone">
+                    <h3>Smartphone</h3>
+                    <p>Rs. 45,000</p>
+<button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal1">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 2 Laptop -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="Laptop">
+                    <h3>Modern Laptop</h3>
+                    <p>Rs. 125,000</p>
+                    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal2">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 3 Smart TV -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500" alt="Smart TV">
+                    <h3>Smart TV</h3>
+                    <p>Rs. 85,000</p>
+                    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal3">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 4 Earbuds -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500" alt="Wireless Earbuds">
+                    <h3>Wireless Earbuds</h3>
+                    <p>Rs. 5,000</p>
+                   <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal4">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 5 Gaming Headset -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1599669454699-248893623440?w=500" alt="Gaming Headset">
+                    <h3>Gaming Headset</h3>
+                    <p>Rs. 7,500</p>
+                    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal5">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 6 Speaker -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500" alt="Bluetooth Speaker">
+                    <h3>Bluetooth Speaker</h3>
+                    <p>Rs. 6,500</p>
+                    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal6">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 7 Camera -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500" alt="Digital Camera">
+                    <h3>Digital Camera</h3>
+                    <p>Rs. 75,000</p>
+                    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal7">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 8 Smart Watch -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Smart Watch">
+                    <h3>Smart Watch</h3>
+                    <p>Rs. 12,000</p>
+                    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal8">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 9 Power Bank -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500" alt="Power Bank">
+                    <h3>Power Bank</h3>
+                    <p>Rs. 4,500</p>
+                    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal9">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 10 Gaming Keyboard -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500" alt="Gaming Keyboard">
+                    <h3>Gaming Keyboard</h3>
+                    <p>Rs. 4,500</p>
+                   <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal10">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 11 Gaming Mouse -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500" alt="Gaming Mouse">
+                    <h3>Gaming Mouse</h3>
+                    <p>Rs. 2,500</p>
+                    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal11">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+            <!-- 12 Tablet -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="electronic-card">
+                    <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500" alt="Smart Tablet">
+                    <h3>Smart Tablet</h3>
+                    <p>Rs. 55,000</p>
+                    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#electronicModal12">
+    Shop Now
+</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- fashion  -->
+ <section class="fashion-section" id="fashion">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="fashion-heading">
+            <h2>Fashion</h2>
+            <p>Discover Your Style With Our Latest Fashion Collection</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- 1 Men's T-Shirt -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500" alt="Men T-Shirt">
+                    <h3>Men's T-Shirt</h3>
+                    <p>Rs. 2,500</p>
+                   <button data-bs-toggle="modal" data-bs-target="#fashionModal1">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 2 Women's Dress -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                   <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500" alt="Women's Dress">
+                    <h3>Women's Dress</h3>
+                    <p>Rs. 4,500</p>
+                   <button data-bs-toggle="modal" data-bs-target="#fashionModal2">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 3 Men's Jacket -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500" alt="Men Jacket">
+                    <h3>Men's Jacket</h3>
+                    <p>Rs. 6,500</p>
+                   <button data-bs-toggle="modal" data-bs-target="#fashionModal3">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 4 Women's Handbag -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500" alt="Women's Handbag">
+                    <h3>Women's Handbag</h3>
+                    <p>Rs. 5,000</p>
+                  <button data-bs-toggle="modal" data-bs-target="#fashionModal4">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 5 Sneakers -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Sneakers">
+                    <h3>Casual Sneakers</h3>
+                    <p>Rs. 7,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#fashionModal5">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 6 Sunglasses -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500" alt="Sunglasses">
+                    <h3>Stylish Sunglasses</h3>
+                    <p>Rs. 2,000</p>
+                   	<button data-bs-toggle="modal" data-bs-target="#fashionModal6">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 7 Women's Heels -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500" alt="Women's Heels">
+                    <h3>Women's Heels</h3>
+                    <p>Rs. 4,000</p>
+                   <button data-bs-toggle="modal" data-bs-target="#fashionModal7">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 8 Wrist Watch -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500" alt="Wrist Watch">
+                    <h3>Classic Wrist Watch</h3>
+                    <p>Rs. 8,000</p>
+                   <button data-bs-toggle="modal" data-bs-target="#fashionModal8">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 9 Men's Jeans -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=500" alt="Men Jeans">
+                    <h3>Men's Jeans</h3>
+                    <p>Rs. 3,500</p>
+                  <button data-bs-toggle="modal" data-bs-target="#fashionModal9">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 10 Women's Shoes -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500" alt="Women's Shoes">
+                    <h3>Women's Shoes</h3>
+                    <p>Rs. 4,500</p>
+                   <button data-bs-toggle="modal" data-bs-target="#fashionModal10">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 11 Backpack -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500" alt="Backpack">
+                    <h3>Fashion Backpack</h3>
+                    <p>Rs. 3,000</p>
+                   <button data-bs-toggle="modal" data-bs-target="#fashionModal11">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 12 Cap -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="fashion-card">
+                    <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500" alt="Fashion Cap">
+                    <h3>Fashion Cap</h3>
+                    <p>Rs. 1,500</p>
+                   <button data-bs-toggle="modal" data-bs-target="#fashionModal12">Shop Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Accessorie  section  -->
+
+<section class="accessories-section" id="accessories">
+    <div class="container">
+
+        <div class="accessories-heading">
+            <h2>Accessories Collection</h2>
+            <p>Complete your style with our latest accessories</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- 1 Classic Wrist Watch -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Wrist Watch">
+                    <h3>Classic Wrist Watch</h3>
+                    <p>Rs. 5,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal1">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 2 Stylish Sunglasses -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500" alt="Sunglasses">
+                    <h3>Stylish Sunglasses</h3>
+                    <p>Rs. 2,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal2">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 3 Women's Handbag -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500" alt="Handbag">
+                    <h3>Women's Handbag</h3>
+                    <p>Rs. 4,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal3">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 4 Leather Wallet -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1627123424574-724758594e93?w=500" alt="Leather Wallet">
+                    <h3>Leather Wallet</h3>
+                    <p>Rs. 1,800</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal4">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 5 Elegant Jewelry -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500" alt="Elegant Jewelry">
+                    <h3>Elegant Jewelry</h3>
+                    <p>Rs. 3,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal5">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 6 Fashion Backpack -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500" alt="Backpack">
+                    <h3>Fashion Backpack</h3>
+                    <p>Rs. 3,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal6">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 7 Premium Eyewear -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500" alt="Fashion Glasses">
+                    <h3>Premium Eyewear</h3>
+                    <p>Rs. 2,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal7">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 8 Fashion Bracelet -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=500" alt="Bracelet">
+                    <h3>Fashion Bracelet</h3>
+                    <p>Rs. 1,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal8">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 9 Golden Necklace -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500" alt="Necklace">
+                    <h3>Golden Necklace</h3>
+                    <p>Rs. 2,800</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal9">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 10 Fashion Scarf -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500" alt="Fashion Scarf">
+                    <h3>Fashion Scarf</h3>
+                    <p>Rs. 1,200</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal10">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 11 Luxury Perfume -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500" alt="Perfume">
+                    <h3>Luxury Perfume</h3>
+                    <p>Rs. 4,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal11">Shop Now</button>
+                </div>
+            </div>
+
+            <!-- 12 Luxury Watch -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="accessory-card">
+                    <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500" alt="Luxury Watch">
+                    <h3>Luxury Watch</h3>
+                    <p>Rs. 8,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#accessoriesModal12">Shop Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    
+<!-- HOME AND LIVING -->
+
+<section class="home-living-section" id="home">
+    <div class="container">
+
+        <div class="home-living-heading">
+            <h2>Home & Living Collection</h2>
+            <p>Make your home beautiful, comfortable and stylish</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=500" alt="Modern Sofa">
+                    <h3>Modern Sofa</h3>
+                    <p>Rs. 45,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal1">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500" alt="Table Lamp">
+                    <h3>Modern Table Lamp</h3>
+                    <p>Rs. 3,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal2">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=500" alt="Living Room Decor">
+                    <h3>Living Room Decor</h3>
+                    <p>Rs. 8,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal3">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=500" alt="Modern Chair">
+                    <h3>Modern Chair</h3>
+                    <p>Rs. 12,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal4">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=500" alt="Decorative Candle">
+                    <h3>Decorative Candle</h3>
+                    <p>Rs. 1,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal5">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500" alt="Home Decoration">
+                    <h3>Home Decoration</h3>
+                    <p>Rs. 4,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal6">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=500" alt="Decorative Vase">
+                    <h3>Decorative Vase</h3>
+                    <p>Rs. 2,500</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal7">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500" alt="Bedroom Furniture">
+                    <h3>Bedroom Furniture</h3>
+                    <p>Rs. 35,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal8">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=500" alt="Dining Table">
+                    <h3>Dining Table</h3>
+                    <p>Rs. 28,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal9">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1615874694520-474822394e73?w=500" alt="Bedroom Decor">
+                    <h3>Bedroom Decor</h3>
+                    <p>Rs. 6,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal10">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1603199506016-b9a594b593c0?w=500" alt="Indoor Plant">
+                    <h3>Indoor Plant</h3>
+                    <p>Rs. 1,800</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal11">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="home-living-card">
+                    <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=500" alt="Modern Home Interior">
+                    <h3>Home Interior Decor</h3>
+                    <p>Rs. 15,000</p>
+                    <button data-bs-toggle="modal" data-bs-target="#homeModal12">Shop Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- deals  -->
+ 
+<section class="deals-section">
+    <div class="container">
+
+        <div class="deals-heading">
+            <span>LIMITED TIME OFFERS</span>
+            <h2>Exclusive Deals & Discounts</h2>
+            <p>Grab your favorite products at amazing prices!</p>
+        </div>
+
+<div class="row g-4">
+
+    <!-- Deal 1 -->
+    <div class="col-12 col-sm-6 col-lg-3" id="deal">
+        <div class="deal-card">
+            <span class="discount-badge">25% OFF</span>
+            <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500" alt="Smartphone">
+            <h3>Smartphone</h3>
+            <div class="deal-price">
+                <span>Rs. 45,000</span>
+                <del>Rs. 60,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal1">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 2 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">20% OFF</span>
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="Laptop">
+            <h3>Modern Laptop</h3>
+            <div class="deal-price">
+                <span>Rs. 100,000</span>
+                <del>Rs. 125,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal2">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 3 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">30% OFF</span>
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Sneakers">
+            <h3>Casual Sneakers</h3>
+            <div class="deal-price">
+                <span>Rs. 5,250</span>
+                <del>Rs. 7,500</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal3">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 4 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">15% OFF</span>
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Watch">
+            <h3>Classic Watch</h3>
+            <div class="deal-price">
+                <span>Rs. 4,675</span>
+                <del>Rs. 5,500</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal4">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 5 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">20% OFF</span>
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500" alt="Handbag">
+            <h3>Women's Handbag</h3>
+            <div class="deal-price">
+                <span>Rs. 4,000</span>
+                <del>Rs. 5,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal5">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 6 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">25% OFF</span>
+            <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500" alt="Bluetooth Speaker">
+            <h3>Bluetooth Speaker</h3>
+            <div class="deal-price">
+                <span>Rs. 4,875</span>
+                <del>Rs. 6,500</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal6">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 7 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">20% OFF</span>
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=500" alt="Sofa">
+            <h3>Modern Sofa</h3>
+            <div class="deal-price">
+                <span>Rs. 36,000</span>
+                <del>Rs. 45,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal7">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 8 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">15% OFF</span>
+            <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500" alt="Sunglasses">
+            <h3>Stylish Sunglasses</h3>
+            <div class="deal-price">
+                <span>Rs. 1,700</span>
+                <del>Rs. 2,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal8">Grab Deal</button>
+        </div>
+    </div>
+
+</div>
+</div>
+</section>
+
+
+<!-- modals  -->
+ <!-- electronics  -->
+  
+<div class="modal fade product-modal" id="electronicModal1" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Smartphone Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500" class="modal-img">
+                <h4>Smartphone</h4>
+                <p>Rs. 45,000 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 45,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- laptop  -->
+<div class="modal fade product-modal" id="electronicModal2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Laptop Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" class="modal-img">
+                <h4>Modern Laptop</h4>
+                <p>Rs. 125,000 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 125,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- smart tv  -->
+<div class="modal fade product-modal" id="electronicModal3" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Smart TV Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500" class="modal-img">
+                <h4>Smart TV</h4>
+                <p>Rs. 85,000 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 85,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ear buds  -->
+<div class="modal fade product-modal" id="electronicModal4" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Earbuds Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500" class="modal-img">
+                <h4>Wireless Earbuds</h4>
+                <p>Rs. 5,000 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 5,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- gamming  -->
+<div class="modal fade product-modal" id="electronicModal5" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Gaming Headset Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1599669454699-248893623440?w=500" class="modal-img">
+                <h4>Gaming Headset</h4>
+                <p>Rs. 7,500 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 7,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- speaker  -->
+<div class="modal fade product-modal" id="electronicModal6" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Speaker Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500" class="modal-img">
+                <h4>Bluetooth Speaker</h4>
+                <p>Rs. 6,500 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 6,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- camera  -->
+<div class="modal fade product-modal" id="electronicModal7" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Camera Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500" class="modal-img">
+                <h4>Digital Camera</h4>
+                <p>Rs. 75,000 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 75,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- smart watch  -->
+<div class="modal fade product-modal" id="electronicModal8" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Smart Watch Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" class="modal-img">
+                <h4>Smart Watch</h4>
+                <p>Rs. 12,000 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 12,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- power bank  -->
+<div class="modal fade product-modal" id="electronicModal9" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Power Bank Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500" class="modal-img">
+                <h4>Power Bank</h4>
+                <p>Rs. 4,500 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 4,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- keyboard  -->
+<div class="modal fade product-modal" id="electronicModal10" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Keyboard Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500" class="modal-img">
+                <h4>Gaming Keyboard</h4>
+                <p>Rs. 4,500 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 4,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- mouse  -->
+<div class="modal fade product-modal" id="electronicModal11" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Gaming Mouse Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500" class="modal-img">
+                <h4>Gaming Mouse</h4>
+                <p>Rs. 2,500 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 2,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- tablet  -->
+<div class="modal fade product-modal" id="electronicModal12" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Tablet Details</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500" class="modal-img">
+                <h4>Smart Tablet</h4>
+                <p>Rs. 55,000 PKR</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 55,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- fashion modals  -->
+<!-- modal one  -->
+<div class="modal fade product-modal" id="fashionModal1" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Men's T-Shirt</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500">
+                <h4>Men's T-Shirt</h4>
+                <p>Rs. 2,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 2,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal two  -->
+<div class="modal fade product-modal" id="fashionModal2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Women's Dress</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500">
+                <h4>Women's Dress</h4>
+                <p>Rs. 4,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 4,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FASHION MODAL 3  -->
+<div class="modal fade product-modal" id="fashionModal3" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Men's Jacket</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500">
+                <h4>Men's Jacket</h4>
+                <p>Rs. 6,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 6,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- FASHION MODAL 4  -->
+<div class="modal fade product-modal" id="fashionModal4" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Women's Handbag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500">
+                <h4>Women's Handbag</h4>
+                <p>Rs. 5,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 5,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- FASHION MODAL 5  -->
+<div class="modal fade product-modal" id="fashionModal5" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Casual Sneakers</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500">
+                <h4>Casual Sneakers</h4>
+                <p>Rs. 7,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 7,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FASHION MODAL 6  -->
+<div class="modal fade product-modal" id="fashionModal6" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Stylish Sunglasses</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500">
+                <h4>Stylish Sunglasses</h4>
+                <p>Rs. 2,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 2,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal seven -->
+<div class="modal fade product-modal" id="fashionModal7" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Women's Heels</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500">
+                <h4>Women's Heels</h4>
+                <p>Rs. 4,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 4,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- MODAL 8  -->
+<div class="modal fade product-modal" id="fashionModal8" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Classic Wrist Watch</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500">
+                <h4>Classic Wrist Watch</h4>
+                <p>Rs. 8,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 8,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- MODAL 9  -->
+<div class="modal fade product-modal" id="fashionModal9" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Men's Jeans</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=500">
+                <h4>Men's Jeans</h4>
+                <p>Rs. 3,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 3,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- FASHION MODAL 10 -->
+<div class="modal fade product-modal" id="fashionModal10" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Women's Shoes</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500">
+                <h4>Women's Shoes</h4>
+                <p>Rs. 4,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 4,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FASHION MODAL 11 -->
+<div class="modal fade product-modal" id="fashionModal11" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Fashion Backpack</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500">
+                <h4>Fashion Backpack</h4>
+                <p>Rs. 3,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 3,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FASHION MODAL 12  -->
+<div class="modal fade product-modal" id="fashionModal12" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Fashion Cap</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500">
+                <h4>Fashion Cap</h4>
+                <p>Rs. 1,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 1,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- accessories modal  -->
+ 
+<!-- modal one  -->
+<div class="modal fade product-modal" id="accessoriesModal1" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Classic Wrist Watch</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500">
+                <h4>Classic Wrist Watch</h4>
+                <p>Rs. 5,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 5,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ACCESSORIES MODAL 2 -->
+<div class="modal fade product-modal" id="accessoriesModal2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Stylish Sunglasses</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500">
+                <h4>Stylish Sunglasses</h4>
+                <p>Rs. 2,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 2,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal three -->
+<div class="modal fade product-modal" id="accessoriesModal3" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Women's Handbag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500">
+                <h4>Women's Handbag</h4>
+                <p>Rs. 4,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 4,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- MODAL 4  -->
+<div class="modal fade product-modal" id="accessoriesModal4" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Leather Wallet</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1627123424574-724758594e93?w=500">
+                <h4>Leather Wallet</h4>
+                <p>Rs. 1,800</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 1,800</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- MODAL 5  -->
+<div class="modal fade product-modal" id="accessoriesModal5" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Elegant Jewelry</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500">
+                <h4>Elegant Jewelry</h4>
+                <p>Rs. 3,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 3,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- ACCESSORIES MODAL 6  -->
+<div class="modal fade product-modal" id="accessoriesModal6" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Fashion Backpack</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500">
+                <h4>Fashion Backpack</h4>
+                <p>Rs. 3,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 3,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ACCESSORIES MODAL 7 -->
+<div class="modal fade product-modal" id="accessoriesModal7" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Premium Eyewear</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500">
+                <h4>Premium Eyewear</h4>
+                <p>Rs. 2,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 2,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- ACCESSORIES MODAL 8  -->
+<div class="modal fade product-modal" id="accessoriesModal8" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Fashion Bracelet</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=500">
+                <h4>Fashion Bracelet</h4>
+                <p>Rs. 1,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 1,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ACCESSORIES MODAL 9  -->
+<div class="modal fade product-modal" id="accessoriesModal9" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Golden Necklace</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500">
+                <h4>Golden Necklace</h4>
+                <p>Rs. 2,800</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 2,800</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ACCESSORIES MODAL 10 -->
+<div class="modal fade product-modal" id="accessoriesModal10" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Fashion Scarf</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500">
+                <h4>Fashion Scarf</h4>
+                <p>Rs. 1,200</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 1,200</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- ACCESSORIES MODAL 11 -->
+<div class="modal fade product-modal" id="accessoriesModal11" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Luxury Perfume</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500">
+                <h4>Luxury Perfume</h4>
+                <p>Rs. 4,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 4,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ACCESSORIES MODAL 12  -->
+<div class="modal fade product-modal" id="accessoriesModal12" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Luxury Watch</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500">
+                <h4>Luxury Watch</h4>
+                <p>Rs. 8,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 8,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- home and accessories  -->
+ 
+
+
+<!-- MODAL 1: MODERN SOFA -->
+<div class="modal fade product-modal" id="homeModal1" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modern Sofa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=500">
+                <h4>Modern Sofa</h4>
+                <p>Rs. 45,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 45,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 2: TABLE LAMP -->
+<div class="modal fade product-modal" id="homeModal2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modern Table Lamp</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500">
+                <h4>Modern Table Lamp</h4>
+                <p>Rs. 3,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 3,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 3: LIVING ROOM DECOR -->
+<div class="modal fade product-modal" id="homeModal3" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Living Room Decor</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=500">
+                <h4>Living Room Decor</h4>
+                <p>Rs. 8,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 8,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 4: MODERN CHAIR -->
+<div class="modal fade product-modal" id="homeModal4" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modern Chair</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=500">
+                <h4>Modern Chair</h4>
+                <p>Rs. 12,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 12,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 5: DECORATIVE CANDLE -->
+<div class="modal fade product-modal" id="homeModal5" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Decorative Candle</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=500">
+                <h4>Decorative Candle</h4>
+                <p>Rs. 1,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 1,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 6: HOME DECORATION -->
+<div class="modal fade product-modal" id="homeModal6" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Home Decoration</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500">
+                <h4>Home Decoration</h4>
+                <p>Rs. 4,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 4,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 7: DECORATIVE VASE -->
+<div class="modal fade product-modal" id="homeModal7" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Decorative Vase</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=500">
+                <h4>Decorative Vase</h4>
+                <p>Rs. 2,500</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 2,500</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 8: BEDROOM FURNITURE -->
+<div class="modal fade product-modal" id="homeModal8" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Bedroom Furniture</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500">
+                <h4>Bedroom Furniture</h4>
+                <p>Rs. 35,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 35,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 9: DINING TABLE -->
+<div class="modal fade product-modal" id="homeModal9" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Dining Table</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=500">
+                <h4>Dining Table</h4>
+                <p>Rs. 28,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 28,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 10: BEDROOM DECOR -->
+<div class="modal fade product-modal" id="homeModal10" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Bedroom Decor</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1615874694520-474822394e73?w=500">
+                <h4>Bedroom Decor</h4>
+                <p>Rs. 6,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 6,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 11: INDOOR PLANT -->
+<div class="modal fade product-modal" id="homeModal11" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Indoor Plant</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1603199506016-b9a594b593c0?w=500">
+                <h4>Indoor Plant</h4>
+                <p>Rs. 1,800</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 1,800</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 12: HOME INTERIOR DECOR -->
+<div class="modal fade product-modal" id="homeModal12" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Home Interior Decor</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=500">
+                <h4>Home Interior Decor</h4>
+                <p>Rs. 15,000</p>
+                <div class="quantity-control">
+                    <button class="qty-minus">−</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="mt-3">Total: <span class="total">Rs. 15,000</span></h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- deals  -->
+ 
+<!-- DEALS SECTION -->
+
+<div class="row g-4">
+
+    <!-- Deal 1 -->
+    <div class="col-12 col-sm-6 col-lg-3" id="deal">
+        <div class="deal-card">
+            <span class="discount-badge">25% OFF</span>
+            <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500" alt="Smartphone">
+            <h3>Smartphone</h3>
+            <div class="deal-price">
+                <span>Rs. 45,000</span>
+                <del>Rs. 60,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal1">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 2 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">20% OFF</span>
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="Laptop">
+            <h3>Modern Laptop</h3>
+            <div class="deal-price">
+                <span>Rs. 100,000</span>
+                <del>Rs. 125,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal2">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 3 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">30% OFF</span>
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Sneakers">
+            <h3>Casual Sneakers</h3>
+            <div class="deal-price">
+                <span>Rs. 5,250</span>
+                <del>Rs. 7,500</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal3">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 4 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">15% OFF</span>
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Watch">
+            <h3>Classic Watch</h3>
+            <div class="deal-price">
+                <span>Rs. 4,675</span>
+                <del>Rs. 5,500</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal4">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 5 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">20% OFF</span>
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500" alt="Handbag">
+            <h3>Women's Handbag</h3>
+            <div class="deal-price">
+                <span>Rs. 4,000</span>
+                <del>Rs. 5,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal5">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 6 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">25% OFF</span>
+            <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500" alt="Bluetooth Speaker">
+            <h3>Bluetooth Speaker</h3>
+            <div class="deal-price">
+                <span>Rs. 4,875</span>
+                <del>Rs. 6,500</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal6">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 7 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">20% OFF</span>
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=500" alt="Sofa">
+            <h3>Modern Sofa</h3>
+            <div class="deal-price">
+                <span>Rs. 36,000</span>
+                <del>Rs. 45,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal7">Grab Deal</button>
+        </div>
+    </div>
+
+    <!-- Deal 8 -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="deal-card">
+            <span class="discount-badge">15% OFF</span>
+            <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500" alt="Sunglasses">
+            <h3>Stylish Sunglasses</h3>
+            <div class="deal-price">
+                <span>Rs. 1,700</span>
+                <del>Rs. 2,000</del>
+            </div>
+            <button data-bs-toggle="modal" data-bs-target="#dealModal8">Grab Deal</button>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- DEALS MODALS -->
+
+<!-- MODAL 1 -->
+<div class="modal fade product-modal" id="dealModal1" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Smartphone - 25% OFF</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500" alt="Smartphone">
+                <h4>Smartphone</h4>
+                <p>Rs. 45,000 <del>Rs. 60,000</del></p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="total">Total: Rs. 45,000</h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 2 -->
+<div class="modal fade product-modal" id="dealModal2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modern Laptop - 20% OFF</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="Laptop">
+                <h4>Modern Laptop</h4>
+                <p>Rs. 100,000 <del>Rs. 125,000</del></p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="total">Total: Rs. 100,000</h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 3 -->
+<div class="modal fade product-modal" id="dealModal3" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Casual Sneakers - 30% OFF</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Sneakers">
+                <h4>Casual Sneakers</h4>
+                <p>Rs. 5,250 <del>Rs. 7,500</del></p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="total">Total: Rs. 5,250</h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 4 -->
+<div class="modal fade product-modal" id="dealModal4" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Classic Watch - 15% OFF</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Watch">
+                <h4>Classic Watch</h4>
+                <p>Rs. 4,675 <del>Rs. 5,500</del></p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="total">Total: Rs. 4,675</h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 5 -->
+<div class="modal fade product-modal" id="dealModal5" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Women's Handbag - 20% OFF</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500" alt="Handbag">
+                <h4>Women's Handbag</h4>
+                <p>Rs. 4,000 <del>Rs. 5,000</del></p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="total">Total: Rs. 4,000</h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 6 -->
+<div class="modal fade product-modal" id="dealModal6" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Bluetooth Speaker - 25% OFF</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500" alt="Bluetooth Speaker">
+                <h4>Bluetooth Speaker</h4>
+                <p>Rs. 4,875 <del>Rs. 6,500</del></p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="total">Total: Rs. 4,875</h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 7 -->
+<div class="modal fade product-modal" id="dealModal7" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modern Sofa - 20% OFF</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=500" alt="Sofa">
+                <h4>Modern Sofa</h4>
+                <p>Rs. 36,000 <del>Rs. 45,000</del></p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="total">Total: Rs. 36,000</h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 8 -->
+<div class="modal fade product-modal" id="dealModal8" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Stylish Sunglasses - 15% OFF</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img class="modal-img" src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500" alt="Sunglasses">
+                <h4>Stylish Sunglasses</h4>
+                <p>Rs. 1,700 <del>Rs. 2,000</del></p>
+                <div class="quantity-control">
+                    <button class="qty-minus">-</button>
+                    <span class="qty">1</span>
+                    <button class="qty-plus">+</button>
+                </div>
+                <h5 class="total">Total: Rs. 1,700</h5>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- footer  -->
+
+<footer class="shopping-footer">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Brand -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="footer-brand">
+                    <h2>Shopping <span>Zone.</span></h2>
+                    <p>
+                        Your one-stop destination for quality products.
+                        Discover the latest fashion, electronics,
+                        accessories and home essentials at great prices.
+                    </p>
+
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-6 col-md-6 col-lg-2">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="#deal">Deals</a></li>
+                        <li><a href="About.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Categories -->
+            <div class="col-6 col-md-6 col-lg-3">
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#electronics">Electronics</a></li>
+                        <li><a href="#fashion">Fashion</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                        <li><a href="#home">Home & Living</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="footer-links footer-contact">
+                    <h4>Contact Us</h4>
+
+                    <p>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Karachi, Pakistan
+                    </p>
+
+                    <p>
+                        <i class="bi bi-envelope-fill"></i>
+                        support@shoppingzone.com
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone-fill"></i>
+                        +92 300 1234567
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-bottom">
+            <p>© 2026 Shopping Zone. All Rights Reserved.</p>
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+
+<!-- bootstrap js 5.3  -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
