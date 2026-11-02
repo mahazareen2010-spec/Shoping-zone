@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!-- bootstrap 5.3 css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- boostrap icon  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+     <link rel="stylesheet" href="account.css">
+</head>
+<body>
+     
+<nav class="navbar navbar-expand-lg navbar-dark shopping-navbar">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold" href="#">
+            Shopping <span>Zone.</span>
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <!-- Navigation Links -->
+            <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item dropdown" id="categories">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" role="button"
+                       data-bs-toggle="dropdown">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#electronic">Electronics</a></li>
+                        <li><a class="dropdown-item" href="#fashion">Fashion</a></li>
+                        <li><a class="dropdown-item" href="#accessories">Accessories</a></li>
+                        <li><a class="dropdown-item" href="#home">Home & Living</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#deal">Deals</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html#contact">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Search Bar -->
+            <form class="search-box d-flex mb-3 mb-lg-0" role="search">
+                <input type="search" class="form-control"
+                    placeholder="Search products...">
+
+                <button class="search-btn" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+
+            <!-- Shopping Cart -->
+            <a href="#" class="cart-icon ms-lg-4">
+                <i class="bi bi-cart3"></i>
+                <span class="cart-count">0</span>
+            </a>
+
+        </div>
+    </div>
+</nav>
+
+
+<section class="login-section">
+    <div class="login-container">
+
+        <h2>Welcome Back!</h2>
+        <p>Login to your account</p>
+
+        <form>
+            <div class="input-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit">Login</button>
+
+            <p class="signup-text">
+                Don't have an account?
+                <a href="account.html">Sign Up</a>
+            </p>
+        </form>
+
+    </div>
+</section>
+<!-- footer  -->
+ <footer class="shopping-footer">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Brand -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="footer-brand">
+                    <h2>Shopping <span>Zone.</span></h2>
+                    <p>
+                        Your one-stop destination for quality products.
+                        Discover the latest fashion, electronics,
+                        accessories and home essentials at great prices.
+                    </p>
+
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-6 col-md-6 col-lg-2">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="#deal">Deals</a></li>
+                        <li><a href="About.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Categories -->
+            <div class="col-6 col-md-6 col-lg-3">
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#electronics">Electronics</a></li>
+                        <li><a href="#fashion">Fashion</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                        <li><a href="#home">Home & Living</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="footer-links footer-contact">
+                    <h4>Contact Us</h4>
+
+                    <p>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Karachi, Pakistan
+                    </p>
+
+                    <p>
+                        <i class="bi bi-envelope-fill"></i>
+                        support@shoppingzone.com
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone-fill"></i>
+                        +92 300 1234567
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-bottom">
+            <p>© 2026 Shopping Zone. All Rights Reserved.</p>
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<!-- bootstrap js 5.3  -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
